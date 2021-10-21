@@ -62,6 +62,8 @@ For example:
    <img style="text-align: center" src="https://github.com/YaelBenShalom/qr-code/blob/master/images/myQR2.png" width=30%>
 </p>
 
+Check out this QR code! 
+
 
 ### QR Code Reader
 To decode a QR code from image, run:
@@ -79,3 +81,5 @@ For example:
     ```
     Website:    https://yaelbenshalom.github.io/
     ```
+
+By the way, this is my personal portfolio. You should check it out!
