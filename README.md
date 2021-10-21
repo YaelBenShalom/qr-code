@@ -49,7 +49,7 @@ For example:
     python3 QR_code_generator.py --url=https://yaelbenshalom.github.io/
     ```
     Output:
-<img style="text-align: center" src="https://github.com/YaelBenShalom/qr-code/blob/master/images/myQR.png" weight=60%>
+<img style="text-align: center" src="https://github.com/YaelBenShalom/qr-code/blob/master/images/myQR.png" width=60%>
 
 - Input:
     ```
@@ -58,7 +58,7 @@ For example:
     Output:
 
 <p style="text-align: center">
-<img src="https://github.com/YaelBenShalom/qr-code/blob/master/images/myQR2.png" weight=60%>
+<img src="https://github.com/YaelBenShalom/qr-code/blob/master/images/myQR2.png" width=60%>
 </p>
 
 
