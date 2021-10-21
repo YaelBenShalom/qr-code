@@ -61,9 +61,9 @@ For example:
 
 
 ### QR Code Reader
-To decode a QR code, run:
+To decode a QR code from image, run:
 ```
-python3 QR_code_reader.py>
+python3 QR_code_reader.py --image=<image-name>
 ```
 
 For example:
