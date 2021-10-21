@@ -2,13 +2,36 @@
 QR code generation and reader
 
 
+Table of Contents
+-----------------
+  * [Description](#description)
+  * [Installation](#installation)
+  * [Usage](#usage)
+    * [QR Code Generation](#qr-code-generation)
+    * [QR Code Reader](#qr-code-reader)
 
-## QR Code Generation
+
+## Description
+This repository contains my implementation of QR Code generation and reader, and is based on `qrcode` and `OpenCV`.
+
+
+## Installation
 Install required dependencies:
+
+To install `qrcode` from the command line:
 ```
 pip install qrcode
 ```
 
+To install `opencv` from the command line:
+```
+pip install opencv-python
+```
+
+
+## Usage:
+
+### QR Code Generation
 To create a QR code from a URL, run:
 ```
 python3 QR_code_generator.py --url=<website-url>
@@ -26,23 +49,18 @@ For example:
     python3 QR_code_generator.py --url=https://yaelbenshalom.github.io/
     ```
     Output:<br>
-    <img class="center" src="https://github.com/YaelBenShalom/qr-code/blob/master/myQR.png">
+    <img align="center" src="https://github.com/YaelBenShalom/qr-code/blob/master/myQR.png">
 
 - Input:
     ```
     python3 QR_code_generator.py --url=https://yaelbenshalom.github.io/ --fill=yellow --back=green
     ```
     Output: <br>
-    <img class="center" src="https://github.com/YaelBenShalom/qr-code/blob/master/myQR2.png">
+    <img align="center" src="https://github.com/YaelBenShalom/qr-code/blob/master/myQR2.png">
 
 
 
-## QR Code Reader
-Installing required dependencies:
-```
-pip install opencv-python
-```
-
+### QR Code Reader
 To decode a QR code, run:
 ```
 python3 QR_code_reader.py>
