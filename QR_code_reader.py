@@ -7,7 +7,7 @@ def main(args):
     image_name = args["image"]
 
     # Read QR code image
-    image = cv2.imread("myQR.png")
+    image = cv2.imread("images/myQR.png")
 
     # Decode QR code image
     detector = cv2.QRCodeDetector()

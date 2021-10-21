@@ -10,7 +10,7 @@ def main(args):
     box_size = args["size"]
     border = args["border"]
 
-    image_name = "myQR.png"
+    image_name = "images/myQR.png"
 
     # Generate QR code
     qr = qrcode.QRCode(version=1, box_size=box_size, border=border)
