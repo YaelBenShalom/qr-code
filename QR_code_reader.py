@@ -24,7 +24,6 @@ def main(args):
             point2 = tuple(bbox[(i + 1) % n_lines][0])
             cv2.line(image, point1, point2, color=(255, 0, 0), thickness=2)
 
-
     # display the result
     cv2.imshow("img", image)
     cv2.waitKey(0)

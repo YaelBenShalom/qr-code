@@ -26,8 +26,10 @@ if __name__ == '__main__':
     # construct the argument parse and parse the arguments
     parser = argparse.ArgumentParser()
     parser.add_argument("--url", help="website URL")
-    parser.add_argument("--fill", default="black", help="fill color. default=black")
-    parser.add_argument("--back", default="white", help="background color. default=white")
+    parser.add_argument("--fill", default="black",
+                        help="fill color. default=black")
+    parser.add_argument("--back", default="white",
+                        help="background color. default=white")
     parser.add_argument("--size", default=10, help="box size. default=10")
     parser.add_argument("--border", default=4, help="border size. default=4")
     args = vars(parser.parse_args())
