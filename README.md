@@ -1,6 +1,6 @@
 # QR code
 
-QR code generation and reader
+Easy QR code generator and reader
 
 ## Table of Contents
 
